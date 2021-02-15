@@ -32,7 +32,7 @@ export default function About() {
 			<img
 				src={image}
 				alt="Swedish winter"
-				className="absolute object-cover min-w-full min-h-screen"
+				className="absolute min-w-screen min-h-screen object-cover overflow-hidden lg:h-full 2xl:w-full"
 			/>
 			<div className="p-10 lg:pt-48 container mx-auto relative">
 				<section className="bg-gray-600 rounded-lg shadow-2xl lg:flex p-5 md:p-10 lg:p-20">

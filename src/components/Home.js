@@ -7,7 +7,7 @@ export default function Home() {
 			<img
 				src={image}
 				alt="Winter in Sweden"
-				className="absolute object-cover min-w-full min-h-screen"
+				className="absolute min-w-screen min-h-screen object-cover overflow-hidden lg:h-full 2xl:w-full"
 			/>
 
 			<section className="relative flex flex-col flex-nowrap justify-start content-center min-h-screen pt-12 px-8">
