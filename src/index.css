@@ -25,3 +25,19 @@ body {
 /* .home-name {
 	font-size: 100px;
 } */
+
+.clicked:focus {
+	transform: scale(2);
+	/* object-fit: none; */
+}
+
+.clicked:active {
+	/* object-fit: fit; */
+	transform: scale(2);
+}
+
+.clicked {
+	cursor: pointer;
+	transition: all 0.5s;
+	/* object-fit: cover; */
+}

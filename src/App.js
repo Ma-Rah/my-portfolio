@@ -5,6 +5,7 @@ import SinglePost from "./components/SinglePost";
 import Post from "./components/Post";
 import Project from "./components/Project";
 import NavBar from "./components/NavBar";
+import Gallery from "./components/Gallery";
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 				<Route component={SinglePost} path="/post/:slug" />
 				<Route component={Post} path="/post" />
 				<Route component={Project} path="/project" />
+				<Route component={Gallery} path="/gallery" />
 			</Switch>
 		</BrowserRouter>
 	);

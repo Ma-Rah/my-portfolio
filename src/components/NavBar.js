@@ -37,6 +37,13 @@ export default function NavBar() {
 					>
 						About
 					</NavLink>
+					<NavLink
+						to="/gallery"
+						className="inline-flex items-center py-3 px-3 md:my-6 rounded text-white hover:text-blue-300 "
+						activeClassName="bg-red-700"
+					>
+						Gallery
+					</NavLink>
 				</nav>
 
 				<div className="inline-flex py-3 px-3 md:my-6">
