@@ -47,9 +47,7 @@ export default function Project() {
 										<strong className="font-bold">Finished on</strong>:{" "}
 										{new Date(project.date).toLocaleDateString()}
 									</div>
-									<div>
-										<strong className="font-bold">Company</strong>: {project.place}
-									</div>
+
 									<div>
 										<strong className="font-bold">Type</strong>: {project.projectType}
 									</div>

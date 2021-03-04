@@ -12,10 +12,6 @@ export default {
 			type: "datetime",
 		},
 		{
-			name: "place",
-			type: "string",
-		},
-		{
 			name: "description",
 			type: "text",
 		},
@@ -25,9 +21,9 @@ export default {
 			type: "string",
 			options: {
 				list: [
-					{ value: "personal", title: "Personal" },
-					{ value: "client", title: "Client" },
-					{ value: "school", title: "School" },
+					{ value: "Personal", title: "Personal" },
+					{ value: "Client", title: "Client" },
+					{ value: "School", title: "School" },
 				],
 			},
 		},
