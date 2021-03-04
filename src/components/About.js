@@ -35,7 +35,7 @@ export default function About() {
 				className="absolute min-w-screen min-h-screen object-cover overflow-hidden lg:h-full 2xl:w-full"
 			/>
 			<div className="p-10 lg:pt-48 container mx-auto relative">
-				<section className="bg-gray-600 rounded-lg shadow-2xl lg:flex p-5 md:p-10 lg:p-20">
+				<section className="bg-gray-600 rounded-lg shadow-2xl lg:flex p-5 md:p-10 lg:p-15">
 					<img
 						src={urlFor(author.authorImage).url()}
 						alt={author.name}

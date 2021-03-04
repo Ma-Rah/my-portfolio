@@ -14,13 +14,7 @@ export default function NavBar() {
 					>
 						Home
 					</NavLink>
-					<NavLink
-						to="/post"
-						className=" inline-flex items-center py-2 px-3 md:my-6 rounded text-white hover:text-blue-300 "
-						activeClassName=" bg-red-700"
-					>
-						Blog posts
-					</NavLink>
+
 					<NavLink
 						to="/project"
 						className="inline-flex items-center py-2 px-3 md:my-6 rounded text-white hover:text-blue-300"
@@ -41,6 +35,14 @@ export default function NavBar() {
 						activeClassName="bg-red-700"
 					>
 						Gallery
+					</NavLink>
+
+					<NavLink
+						to="/post"
+						className=" inline-flex items-center py-2 px-3 md:my-6 rounded text-white hover:text-blue-300 "
+						activeClassName=" bg-red-700"
+					>
+						Blog posts
 					</NavLink>
 				</nav>
 

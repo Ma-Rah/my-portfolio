@@ -24,7 +24,7 @@ export default function Home() {
 				</p>
 
 				<p className="text-1xl text-gray-500 leading-none md:text-2xl cursive  py-2 ">
-					My goal is to work as a web developer in Prague once I graduate the bootcamp.
+					My goal is to work as a web developer in Czech Republic after the bootcamp.
 				</p>
 				<p className="text-1xl text-gray-500 leading-none md:text-2xl cursive  py-2 ">
 					Feel free to contact me if you have any questions!
