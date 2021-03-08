@@ -52,6 +52,14 @@ export default function Project() {
 									<p className="my-6 text-lg text-gray-700 leading-relaxed">
 										{project.description}
 									</p>
+
+									<strong className="font-bold">Tags:</strong>
+									<div className="text-sm text-gray-700 grid grid-cols-1 md:grid-cols-2 ">
+										{project.tags.map((tag) => {
+											return <p>{tag}</p>;
+										})}
+									</div>
+
 									<a
 										href={project.link}
 										rel="noopener noreferrer"
