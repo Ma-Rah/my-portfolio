@@ -23,7 +23,7 @@ export default function Gallery() {
 	return (
 		<main className="bg-white min-h-screen w-min-screen p-2">
 			<section className="">
-				<h1 className="text-3xl md:text-5xl flex justify-center cursive">My Gallery</h1>
+				<h1 className="text-3xl md:text-5xl flex justify-center cursive pt-12">My Gallery</h1>
 				<h2 className="text-lg text-gray-600 flex justify-center mb-5">
 					Some of my favorite photos I've shot in recent years!
 				</h2>
