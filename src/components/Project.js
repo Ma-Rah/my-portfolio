@@ -54,7 +54,7 @@ export default function Project() {
 									</p>
 
 									<strong className="font-bold">Tags:</strong>
-									<div className="text-sm text-gray-700 grid grid-cols-1 md:grid-cols-2 ">
+									<div className="text-sm text-gray-700 grid grid-cols-1">
 										{project.tags.map((tag) => {
 											return <p>{tag}</p>;
 										})}
